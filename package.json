@@ -9,6 +9,7 @@
   "keywords": [
     "hello-world"
   ],
+  "bin": {"greet": "./bin/greet.js"},
   "author": "Mr. Wiredancer",
   "license": "MIT",
   "devDependencies": {
