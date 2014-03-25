@@ -1,5 +1,4 @@
-var greet = require('../index.js')
-    , expect = require('chai').expect;
+var greet = require('../index.js');
 
 describe('greet', function(){
     it("should greet a person by name", function(){
