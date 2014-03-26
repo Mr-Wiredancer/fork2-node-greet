@@ -1,4 +1,4 @@
-var greet = require('../index.js');
+var greet = require('../lib/index.js');
 
 describe('greet', function(){
     it("should greet a person by name", function(){
