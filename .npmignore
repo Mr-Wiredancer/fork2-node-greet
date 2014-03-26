@@ -1,0 +1,6 @@
+.npmignore
+.git*
+.DS_STore
+*.tgz
+test/
+src/
