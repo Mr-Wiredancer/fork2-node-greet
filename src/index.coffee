@@ -1,5 +1,5 @@
 module.exports = (name, drunk) ->
     if drunk
-        "hello " + name + ", you look sexy today"
+        "hello #{name}, you look sexy today"
     else
-        "hello, " + name
+        "hello, #{name}"

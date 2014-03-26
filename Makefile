@@ -1,12 +1,10 @@
 compile:
 	coffee --compile --output lib src
 
-test:
-	make compile
+test: compile
 	npm test
 
-package:
-	make test
+package: test
 	npm pack
 
 .PHONY: compile test package
